@@ -102,7 +102,7 @@ python encode_pg19_train.py \
 done
 ```
 
-You also need to encode the `test` and `eval` set similarly. After encoding the data, you should have a folder named `train-tok` containing the encoded training files and a folder `valid-tok` containing encoded validation file. 
+You also need to encode the `test` and `eval` set similarly. After encoding the data, you should have a folder named `train-tok` containing the encoded training files and a folder `valid-tok` containing encoded validation file.  Train suffixLM with the following command.
 
 ```
 data_path=/path/to/data
@@ -121,4 +121,11 @@ python -m torch.distributed.launch --master_port=[port_number]  main.py \
 
 # Citation
 
-
+```
+@inproceedings{long21,
+author={Simeng Sun and Katherine Thai and Mohit Iyyer},
+Booktitle = {North American Association for Computational Linguistics},
+Year = "2022",
+Title={ChapterBreak: A Challenge Dataset for Long-Range Language Models},
+}
+```
