@@ -98,7 +98,7 @@ OUT_PATH=/path/to/encoded/text/train-tok
 for (( SHARD_ID={s_id}; SHARD_ID<{e_id}; SHARD_ID++ )); do
 python encode_pg19_train.py \
        --input-path $IN_PATH --output-path $OUT_PATH --shard-id $SHARD_ID --shard-size 100 \
-       --chunk-size 256 --batch-size 64
+       --chunk-size 128 --batch-size 64
 done
 ```
 
