@@ -169,7 +169,7 @@ def encode_file(args, tokenize_only=False):
 	except:
 		raise FileNotFoundError
 
-	# tokenize_encode('ao3', args, data['ao3'])
+	tokenize_encode('ao3', args, data['ao3'])
 	tokenize_encode('pg19', args, data['pg19'])
 	
 def main():
