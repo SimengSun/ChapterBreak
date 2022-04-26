@@ -1,6 +1,6 @@
 # SuffixLM
 
-This is the repository for our NAACL 2022 paper [CHAPTERBREAK: A Challenge Dataset for Long-Range Language Models](http://arxiv/).
+This is the repository for our NAACL 2022 paper [CHAPTERBREAK: A Challenge Dataset for Long-Range Language Models](https://arxiv.org/pdf/2204.10878.pdf).
 
 
 # Setup
