@@ -15,7 +15,16 @@ This repository requires `Python 3.8` and  `cuda11/11.1.0`. Install all dependen
 
 ## Data download
 
-Download [ChapterBreak](https://drive.google.com/drive/folders/1JkFHspT56_yRWwXVj47Fw0PzHtitODt5?usp=sharing) with various prefix lengths. Download the long-fanfic data (13,682 filtered long fanfics posted on Archive of Our Own) [here](https://drive.google.com/drive/folders/1Wb5dG6PABOleYGDG9rARVy1nSQ2WhHK2?usp=sharing). Please refer to the Appendix A for more details about the filtering of this dataset.
+Update: ChapterBreak can be downloaded from HuggingFace now: https://huggingface.co/datasets/simsun131/chapterbreak.
+```
+from datasets import load_dataset
+
+dataset = load_dataset("simsun131/chapterbreak")
+```
+
+Old link:
+
+Download [ChapterBreak](https://drive.google.com/drive/folders/1JkFHspT56_yRWwXVj47Fw0PzHtitODt5?usp=sharing) with various prefix lengths. Download the long-fanfic data (13,682 filtered long fanfics posted on Archive of Our Own) [here](https://drive.google.com/drive/folders/1Wb5dG6PABOleYGDG9rARVy1nSQ2WhHK2?usp=sharing). Please refer to the Appendix A for more details about the filtering of this dataset. 
 
 ## Data format
 
